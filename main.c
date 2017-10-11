@@ -20,7 +20,7 @@ int main(void)
 	
 	//gpio_enable_clk (GPIO_PORTA);
 	gpio_enable_clk (GPIO_PORTC);
-	gpio_set_mode(GPIOC, GPIO_PIN13, GPIO_PURPOSE_OUT_PUSHPULL_10MHz);
+	//gpio_set_mode(GPIOC, GPIO_PIN13, GPIO_PURPOSE_OUT_PUSHPULL_10MHz);
 	gpio_write_pin(GPIOC, GPIO_PIN13,1);
 	
 	Timer_Init_Type_Def TIMER;
